@@ -24,7 +24,7 @@ public class DB {
     }
 
     public static void closeConnection() {
-        if(conn != null) {
+        if (conn != null) {
             try {
                 conn.close();
             }
